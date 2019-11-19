@@ -4,11 +4,11 @@
 
 ## Introduction
 
-In this Lab, we'll implement a simple treasure hunt game.
+In this lab, step by step, we'll build something like a simple treasure hunt game.
 
 You can find a demo for what we'll be building [here](https://ironhack-dev-squad-127.github.io/lab-canvas-treasure-hunt/solution-code/).
 
-## Iteration 1: Drawing the Grid
+## Iteration 1: Draw the grid
 
 The goal is to reproduce the following grid.
 
@@ -56,9 +56,9 @@ function drawEverything() {
 drawEverything();
 ```
 
-To finish this iteration, you have to code the function `drawGrid`.
+To finish this iteration, you have to add some code to the function `drawGrid()` so it gives us back visible 10x10 grid.
 
-## Iteration 2: The Character Class
+## Iteration 2: The Character class
 
 Now, you have to create a class `Character`. You should define at least:
 
@@ -81,13 +81,13 @@ player.moveRight(); // Increase by 1 the value of player.col
 console.log(player.col, player.row); // => 1,2
 ```
 
-## Iteration 3: Drawing the Player
+## Iteration 3: Draw the player
 
 Create a function `drawPlayer` that displays the `player` on the canvas based on its `col` and `row` values.
 
 You can simply rely on `images/character-down.png` for this iteration.
 
-## Iteration 4: The Treasure Class
+## Iteration 4: The Treasure class
 
 - Create a class `Treasure` with a method `setRandomPosition()` and a property `col` and `row`
 - Create a function `drawTreasure()` that displays the treasure on the canvas. The picture is `images/treasure.png`
@@ -134,3 +134,6 @@ Here are some ideas:
 - Stop the player at the edges of the board.
 - Add another player that can be controlled with different keys (WASD).
 - Add a `score` property to the player and create a function `drawScores`.
+
+
+__Happy coding!__ :heart:
